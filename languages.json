@@ -1,0 +1,17 @@
+﻿{
+	"vi": {
+		"twlang_Login": "Đăng nhập"
+	},
+	"en": {
+		"twlang_Login": "Login"
+	},
+	"kr": {
+		"twlang_Login": "로그인"
+	},
+	"jp": {
+		"twlang_Login": "ログイン"
+	},
+	"cn": {
+		"twlang_Login": "登录"
+	}
+}

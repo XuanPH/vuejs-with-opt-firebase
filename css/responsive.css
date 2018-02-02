@@ -1,0 +1,130 @@
+/* responsive */
+.box_sp {
+	display: none;
+}
+.box_pc {
+	display: block;
+}
+
+/*responsive */
+
+
+@media screen and (min-width: 769px) {
+}
+
+@media screen and (max-width: 640px) {
+h1, h2, h3, h4, h5, h6, input, button, textarea, select, p, blockquote, th, td, pre, address, li, dt, dd {
+	font-size: 140%;
+}
+img {
+	max-width: 100%;
+}
+#wrapper, #header, #main, #footer, .inner {
+	width: 100% !important;
+	min-width: inherit !important;
+}
+.inner {
+	box-sizing: border-box;
+}
+.box_sp {
+	display: block;
+}
+.box_pc {
+	display: none;
+}
+/*---*/
+}
+
+@media screen and (min-width: 100px) and (max-width: 800px) {
+}
+
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 560px) {
+#index_box01 .inner {
+	padding: 0 20px;
+}
+#index_box01 .ip_txt {
+	height: 55px;
+}
+#index_box01 form input:nth-child(1) {
+	margin-bottom: 20px;
+}
+#index_box01 {
+	padding: 20px 0 50px 0;
+}
+#index_box01 .btn_submit,#maintenance_box01 .btn_submit {
+	height: 55px;
+}
+#index_box01 .title_01 {
+	font-size: 36px;
+	padding: 0 0 15px 0;
+}
+#index_box01 .forgot_pw a {
+	margin: 15px 0;
+}
+/*project*/
+#project .header_main {
+	padding: 0 15px;
+}
+#project #project_box01 p {
+	line-height: 1.2em;
+	margin: 30px 0 15px 0;
+}
+#project #project_box01 {
+	padding: 0 15px;
+}
+#project .header_main p:nth-child(3) a {
+	padding: 2px 8px;
+	font-size: 18px;
+}
+#project .header_main p:nth-child(1) {
+	font-size: 18px;
+}
+/*maintenance*/
+#top_info .top_info_tt {
+	font-size: 14px;
+	height: 44px;
+	line-height: 44px;
+}
+#maintenance .tt_h1 a {
+	font-size: 30px;height: 70px;
+    line-height: 70px;
+}
+#maintenance .tt_h1 a::before {
+	left: 20px;
+	background-size: 14px;
+	top: calc(100% - 55px);
+}
+#maintenance .tt_h1{height:70px;}
+#maintenance_box01 .tt_02{font-size:18px;}
+#maintenance_box01 .ip_txt_main_01,#maintenance_box01 .ip_txt_main_02{font-size:20px;line-height:1.2em;margin-bottom: 25px;}
+#maintenance_box01{padding:20px;}
+#maintenance_box01 .mtn_info{padding:0}
+}
+
+@media screen and (max-width: 490px) {
+}
+
+@media screen and (max-width: 375px) {
+#index_box01 .title_01, #project #project_box01 p {
+	font-size: 30px;
+}
+#project #project_box01 ul li,#maintenance_box01 .ul_img li {
+	width: 100%;
+	margin-right: 0;
+	float: none;
+	max-width: 180px;
+	margin: 0 auto 20px auto;
+}
+#project #project_box01 ul li:last-child {
+	margin: 0 auto;
+}
+}
+
+@media screen and (max-width: 320px) {
+}
+
+@media screen and (max-width: 240px) {
+}
